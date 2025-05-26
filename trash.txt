@@ -1,0 +1,110 @@
+
+
+[1105: code showcase]===================
+// TypingCode Component
+const TypingCode = ({ code }: { code: string }) => {
+  const [displayCode, setDisplayCode] = useState('');
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index < code.length) {
+      const timer = setTimeout(() => {
+        setDisplayCode(prev => prev + code[index]);
+        setIndex(prev => prev + 1);
+      }, 50);
+      return () => clearTimeout(timer);
+    }
+  }, [index, code]);
+
+  return (
+    <SyntaxHighlighter language="python" style={dark} className="rounded-lg p-4 bg-gray-800">
+      {displayCode}
+    </SyntaxHighlighter>
+  );
+};
+
+// CodeSlide Component
+const CodeSlide = ({ title, code }: { title: string, code: string }) => (
+  <div className="p-6 bg-gray-800 rounded-xl shadow-lg max-w-2xl w-full mx-4">
+    <h2 className="text-2xl font-bold text-cyan-400 mb-4">{title}</h2>
+    {/* <TypingCodeEffect code={code} /> */}
+    <CodeTypingEffect title={title} code={code} />
+  </div>
+);
+
+
+
+[0905: add point]=======================
+  // const addPoint = (point?: Point) => {
+  //   if (point) {
+  //     setPoints([...points, point]);
+  //     return;
+  //   }
+  //   setPoints([
+  //     ...points,
+  //     { x: Math.random() * 200 - 100, y: Math.random() * 200 - 100 },
+  //   ]);
+  // };
+
+[0905: 4+ points for drawing line]======
+
+
+	// Catmull-Rom to Cubic Bézier for 4+ points
+      // Monotonic cubic spline
+      const n = sortedPoints.length;
+      const x = sortedPoints.map(p => p.x);
+      const y = sortedPoints.map(p => p.y);
+      const dx = new Array(n - 1);
+      const dy = new Array(n - 1);
+      const m = new Array(n); // Slopes at each point
+
+      // Compute deltas
+      for (let i = 0; i < n - 1; i++) {
+        dx[i] = x[i + 1] - x[i];
+        dy[i] = y[i + 1] - y[i];
+      }
+
+      // Initialize slopes (secant slopes)
+      m[0] = dx[0] !== 0 ? dy[0] / dx[0] : 0;
+      for (let i = 1; i < n - 1; i++) {
+        m[i] = dx[i - 1] !== 0 && dx[i] !== 0 ? (dy[i - 1] / dx[i - 1] + dy[i] / dx[i]) / 2 : 0;
+      }
+      m[n - 1] = dx[n - 2] !== 0 ? dy[n - 2] / dx[n - 2] : 0;
+
+      // Enforce monotonicity (Fritsch-Carlson)
+      for (let i = 0; i < n - 1; i++) {
+        if (dx[i] === 0) {
+          m[i] = m[i + 1] = 0;
+          continue;
+        }
+        const alpha = m[i] / (dy[i] / dx[i]);
+        const beta = m[i + 1] / (dy[i] / dx[i]);
+        if (alpha < 0 || beta < 0) {
+          m[i] = m[i + 1] = 0;
+        } else if (alpha > 3 || beta > 3) {
+          const tau = 3 / Math.sqrt(alpha * alpha + beta * beta);
+          m[i] *= tau;
+          m[i + 1] *= tau;
+        }
+      }
+
+      // Draw cubic Bézier curves for each segment
+      for (let i = 0; i < n - 1; i++) {
+        const p0 = sortedPoints[i];
+        const p1 = sortedPoints[i + 1];
+        const canvasX0 = p0.x + ctx.canvas.width / 2;
+        const canvasY0 = ctx.canvas.height / 2 - p0.y;
+        const canvasX1 = p1.x + ctx.canvas.width / 2;
+        const canvasY1 = ctx.canvas.height / 2 - p1.y;
+
+        // Compute control points for cubic Bézier
+        const h = dx[i];
+        if (h === 0) continue; // Skip if points overlap
+        const cp1x = canvasX0 + h / 3;
+        const cp1y = canvasY0 + (m[i] * h) / 3;
+        const cp2x = canvasX1 - h / 3;
+        const cp2y = canvasY1 - (m[i + 1] * h) / 3;
+
+        if (i === 0) ctx.moveTo(canvasX0, canvasY0);
+        ctx.bezierCurveTo(cp1x, cp1y, cp2x, cp2y, canvasX1, canvasY1);
+      }

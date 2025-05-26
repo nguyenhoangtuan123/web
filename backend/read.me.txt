@@ -1,0 +1,61 @@
+I. Hướng dẫn Chạy
+- Cài đặt Môi trường:
+- Cài Python 3.10 nếu chưa có.
+
+1. Tạo lại môi trường ảo
++ Bước 1: Vào thư mục dự án:
+- Mở cmd và điều hướng đến thư mục chứa app.py (e.g., D:\taif lieu\machine learning\file test):
+
+cd D:\taif lieu\machine learning\file test
+
++ Bước 2: Tạo môi trường ảo:
+- Chạy:
+
+C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\python.exe -m venv venv
+
+- Điều này tạo lại thư mục venv trong thư mục hiện tại.
+
++ Bước 3: Kích hoạt môi trường ảo:
+- Chạy:
+
+venv\Scripts\activate
+
+- Bạn sẽ thấy (venv) trước dòng lệnh, xác nhận môi trường ảo đã kích hoạt.
+
+2. Cài đặt lại các thư viện
++ Bước 1: Cài đặt các thư viện cần thiết:
+- Trong môi trường ảo, chạy:
+
+pip install numpy==1.26.4 scikit-learn==1.2.2 flask flask-cors joblib pandas xgboost cvxopt matplotlib
+
+- Nếu gặp lỗi về phiên bản (như trước đây), thử numpy==1.24.4:
+
+pip install numpy==1.24.4 scikit-learn==1.2.2 flask flask-cors joblib pandas xgboost
+
++ Bước 2: Xác nhận cài đặt:
+- Chạy:
+
+python -c "import numpy; import sklearn; print(numpy.__version__); print(sklearn.__version__)"
+
+- Kết quả nên là (e.g., 1.26.4 và 1.2.2).
+
+
+
+Chạy Backend:
+Mở terminal, điều hướng đến thư mục heartbeat_project:
+
+cd heartbeat_project
+python app.py
+
+Backend sẽ chạy trên http://localhost:5000.
+
+Chạy Frontend:
+Trong cùng thư mục, chạy máy chủ cục bộ:
+
+python -m http.server 8000
+
+Mở trình duyệt và truy cập http://localhost:8000/index.html
+
+Sử dụng:
+Chọn một mẫu từ dropdown (10 mẫu đầu tiên từ mitbih_train.csv).
+Nhấp "Classify Heartbeat" để xem kết quả dự đoán từ mô hình.

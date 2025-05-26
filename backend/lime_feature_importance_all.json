@@ -1,0 +1,752 @@
+{
+  "Supraventricular": [
+    {
+      "feature": "Time Point 0",
+      "weight": 0.01297261866966059
+    },
+    {
+      "feature": "Time Point 1",
+      "weight": -0.0022987119012713407
+    },
+    {
+      "feature": "Time Point 2",
+      "weight": -0.003560438953528305
+    },
+    {
+      "feature": "Time Point 3",
+      "weight": 0.0012336605610309345
+    },
+    {
+      "feature": "Time Point 4",
+      "weight": 0.007730489977448281
+    },
+    {
+      "feature": "Time Point 5",
+      "weight": 0.0016354216754544647
+    },
+    {
+      "feature": "Time Point 6",
+      "weight": 0.0004455512636061581
+    },
+    {
+      "feature": "Time Point 7",
+      "weight": 0.003628673548594328
+    },
+    {
+      "feature": "Time Point 8",
+      "weight": 0.0008075103564341962
+    },
+    {
+      "feature": "Time Point 9",
+      "weight": 0.0007530942330132793
+    },
+    {
+      "feature": "Time Point 10",
+      "weight": -1.9617476331178685e-05
+    },
+    {
+      "feature": "Time Point 11",
+      "weight": -0.00039114402307057015
+    },
+    {
+      "feature": "Time Point 12",
+      "weight": 0.0002945883252548356
+    },
+    {
+      "feature": "Time Point 13",
+      "weight": 0.0023402258327223356
+    },
+    {
+      "feature": "Time Point 14",
+      "weight": 0.0007776431920985383
+    },
+    {
+      "feature": "Time Point 15",
+      "weight": 0.0007303721925724555
+    },
+    {
+      "feature": "Time Point 16",
+      "weight": -0.00043859494828790626
+    },
+    {
+      "feature": "Time Point 17",
+      "weight": -0.0002915476237194668
+    },
+    {
+      "feature": "Time Point 18",
+      "weight": 6.509961078012744e-05
+    },
+    {
+      "feature": "Time Point 19",
+      "weight": 0.00024082866461806081
+    },
+    {
+      "feature": "Time Point 20",
+      "weight": -0.0005676087490566131
+    },
+    {
+      "feature": "Time Point 21",
+      "weight": -0.00040311275974426225
+    },
+    {
+      "feature": "Time Point 22",
+      "weight": -0.0005170806465890255
+    },
+    {
+      "feature": "Time Point 23",
+      "weight": -0.0002957084206544275
+    },
+    {
+      "feature": "Time Point 24",
+      "weight": -0.0007925212967886045
+    },
+    {
+      "feature": "Time Point 25",
+      "weight": -0.00018895051891508303
+    },
+    {
+      "feature": "Time Point 26",
+      "weight": -0.0006581757469040157
+    },
+    {
+      "feature": "Time Point 27",
+      "weight": 0.0005060075257851096
+    },
+    {
+      "feature": "Time Point 28",
+      "weight": -0.001207721258151953
+    },
+    {
+      "feature": "Time Point 29",
+      "weight": -0.0007006057412585568
+    },
+    {
+      "feature": "Time Point 30",
+      "weight": 0.00033279568278301376
+    },
+    {
+      "feature": "Time Point 31",
+      "weight": 0.0004019303459108283
+    },
+    {
+      "feature": "Time Point 32",
+      "weight": 4.1604666291609725e-05
+    },
+    {
+      "feature": "Time Point 33",
+      "weight": 0.00392907479715487
+    },
+    {
+      "feature": "Time Point 34",
+      "weight": 0.0010116770524795495
+    },
+    {
+      "feature": "Time Point 35",
+      "weight": 0.0012918389157866052
+    },
+    {
+      "feature": "Time Point 36",
+      "weight": -0.001366106029668215
+    },
+    {
+      "feature": "Time Point 37",
+      "weight": -0.0009858309561187723
+    },
+    {
+      "feature": "Time Point 38",
+      "weight": -0.0014169998286820843
+    },
+    {
+      "feature": "Time Point 39",
+      "weight": -0.0007096667140828165
+    },
+    {
+      "feature": "Time Point 40",
+      "weight": -0.0009260021898283542
+    },
+    {
+      "feature": "Time Point 41",
+      "weight": 0.0008160181427829325
+    },
+    {
+      "feature": "Time Point 42",
+      "weight": 0.0020014299836254453
+    },
+    {
+      "feature": "Time Point 43",
+      "weight": -0.0006111761423584214
+    },
+    {
+      "feature": "Time Point 44",
+      "weight": -0.0008360153017339695
+    },
+    {
+      "feature": "Time Point 45",
+      "weight": 6.635987520032915e-05
+    },
+    {
+      "feature": "Time Point 46",
+      "weight": -0.00017240898831731658
+    },
+    {
+      "feature": "Time Point 47",
+      "weight": 0.0005496449921701087
+    },
+    {
+      "feature": "Time Point 48",
+      "weight": -0.0019060456841465412
+    },
+    {
+      "feature": "Time Point 49",
+      "weight": -0.00032637666592663585
+    },
+    {
+      "feature": "Time Point 50",
+      "weight": 0.0001809165418701424
+    },
+    {
+      "feature": "Time Point 51",
+      "weight": -0.0003208802255153204
+    },
+    {
+      "feature": "Time Point 52",
+      "weight": 0.001511732486128735
+    },
+    {
+      "feature": "Time Point 53",
+      "weight": 0.0014349927503546868
+    },
+    {
+      "feature": "Time Point 54",
+      "weight": -5.924011752556777e-05
+    },
+    {
+      "feature": "Time Point 55",
+      "weight": -0.0006723970271924391
+    },
+    {
+      "feature": "Time Point 56",
+      "weight": 0.0002166553530894768
+    },
+    {
+      "feature": "Time Point 57",
+      "weight": -0.0008573730468483316
+    },
+    {
+      "feature": "Time Point 58",
+      "weight": 0.0008756769678284974
+    },
+    {
+      "feature": "Time Point 59",
+      "weight": -0.0005703192048171728
+    },
+    {
+      "feature": "Time Point 60",
+      "weight": 0.000909089252048259
+    },
+    {
+      "feature": "Time Point 61",
+      "weight": -0.001851268734682245
+    },
+    {
+      "feature": "Time Point 62",
+      "weight": 0.0012945164140238591
+    },
+    {
+      "feature": "Time Point 63",
+      "weight": 0.0005554168342092894
+    },
+    {
+      "feature": "Time Point 64",
+      "weight": 0.0002679874952623187
+    },
+    {
+      "feature": "Time Point 65",
+      "weight": 0.0015413694026039963
+    },
+    {
+      "feature": "Time Point 66",
+      "weight": -0.0006008741995903309
+    },
+    {
+      "feature": "Time Point 67",
+      "weight": 0.0002945093856053004
+    },
+    {
+      "feature": "Time Point 68",
+      "weight": -0.0002808880373265394
+    },
+    {
+      "feature": "Time Point 69",
+      "weight": 0.0002776226204230947
+    },
+    {
+      "feature": "Time Point 70",
+      "weight": 0.0007898090959589573
+    },
+    {
+      "feature": "Time Point 71",
+      "weight": -0.0005865738160822593
+    },
+    {
+      "feature": "Time Point 72",
+      "weight": -0.0011733761709270738
+    },
+    {
+      "feature": "Time Point 73",
+      "weight": -0.0017143460092154293
+    },
+    {
+      "feature": "Time Point 74",
+      "weight": 9.438033221198436e-05
+    },
+    {
+      "feature": "Time Point 75",
+      "weight": -9.61505026079745e-05
+    },
+    {
+      "feature": "Time Point 76",
+      "weight": 0.00015831077524602132
+    },
+    {
+      "feature": "Time Point 77",
+      "weight": -0.0006266691483545767
+    },
+    {
+      "feature": "Time Point 78",
+      "weight": 0.0003143013188823476
+    },
+    {
+      "feature": "Time Point 79",
+      "weight": 0.0011004455168802123
+    },
+    {
+      "feature": "Time Point 80",
+      "weight": -0.0006724677958887351
+    },
+    {
+      "feature": "Time Point 81",
+      "weight": -0.0006717652433089761
+    },
+    {
+      "feature": "Time Point 82",
+      "weight": -0.00040794573275161394
+    },
+    {
+      "feature": "Time Point 83",
+      "weight": -0.0003796052356912984
+    },
+    {
+      "feature": "Time Point 84",
+      "weight": -0.0006633504304079995
+    },
+    {
+      "feature": "Time Point 85",
+      "weight": -0.0003133860640788578
+    },
+    {
+      "feature": "Time Point 86",
+      "weight": 0.0008373665815360392
+    },
+    {
+      "feature": "Time Point 87",
+      "weight": -0.001866112258900426
+    },
+    {
+      "feature": "Time Point 88",
+      "weight": 0.0002253876010570538
+    },
+    {
+      "feature": "Time Point 89",
+      "weight": -0.00016984223637870848
+    },
+    {
+      "feature": "Time Point 90",
+      "weight": -0.0004574194817554571
+    },
+    {
+      "feature": "Time Point 91",
+      "weight": -0.00096748639875336
+    },
+    {
+      "feature": "Time Point 92",
+      "weight": 0.0013325302612148292
+    },
+    {
+      "feature": "Time Point 93",
+      "weight": 1.1254594108520952e-05
+    },
+    {
+      "feature": "Time Point 94",
+      "weight": 0.000866281739521748
+    },
+    {
+      "feature": "Time Point 95",
+      "weight": 7.442472015511664e-05
+    },
+    {
+      "feature": "Time Point 96",
+      "weight": 0.0010335422949906672
+    },
+    {
+      "feature": "Time Point 97",
+      "weight": 0.0005443438205448395
+    },
+    {
+      "feature": "Time Point 98",
+      "weight": 0.0002476082349410779
+    },
+    {
+      "feature": "Time Point 99",
+      "weight": -0.0006177645856601419
+    },
+    {
+      "feature": "Time Point 100",
+      "weight": 3.0751020039205705e-05
+    },
+    {
+      "feature": "Time Point 101",
+      "weight": 0.0005122047425560097
+    },
+    {
+      "feature": "Time Point 102",
+      "weight": 0.00024258204881246265
+    },
+    {
+      "feature": "Time Point 103",
+      "weight": 0.001465848035926329
+    },
+    {
+      "feature": "Time Point 104",
+      "weight": 0.0001540044706401278
+    },
+    {
+      "feature": "Time Point 105",
+      "weight": 0.001968140580782541
+    },
+    {
+      "feature": "Time Point 106",
+      "weight": 0.0007809820061780824
+    },
+    {
+      "feature": "Time Point 107",
+      "weight": -5.044929260325919e-05
+    },
+    {
+      "feature": "Time Point 108",
+      "weight": -0.0006428180697829013
+    },
+    {
+      "feature": "Time Point 109",
+      "weight": 0.0010835065968988172
+    },
+    {
+      "feature": "Time Point 110",
+      "weight": 0.00014604793903016082
+    },
+    {
+      "feature": "Time Point 111",
+      "weight": 0.0004232038386620421
+    },
+    {
+      "feature": "Time Point 112",
+      "weight": 9.200302594735109e-05
+    },
+    {
+      "feature": "Time Point 113",
+      "weight": -0.0004455198542938098
+    },
+    {
+      "feature": "Time Point 114",
+      "weight": -0.00014706345241361876
+    },
+    {
+      "feature": "Time Point 115",
+      "weight": -0.00028904672592651144
+    },
+    {
+      "feature": "Time Point 116",
+      "weight": 0.0002379380154775605
+    },
+    {
+      "feature": "Time Point 117",
+      "weight": -0.00011704128092879411
+    },
+    {
+      "feature": "Time Point 118",
+      "weight": -0.00018808298905658704
+    },
+    {
+      "feature": "Time Point 119",
+      "weight": -0.00016656682802224204
+    },
+    {
+      "feature": "Time Point 120",
+      "weight": -0.0005423566925089284
+    },
+    {
+      "feature": "Time Point 121",
+      "weight": 0.0012029606585404475
+    },
+    {
+      "feature": "Time Point 122",
+      "weight": -0.00013957325445114636
+    },
+    {
+      "feature": "Time Point 123",
+      "weight": -0.0007768386930515974
+    },
+    {
+      "feature": "Time Point 124",
+      "weight": -0.0006322951187296966
+    },
+    {
+      "feature": "Time Point 125",
+      "weight": 0.0020440867956259554
+    },
+    {
+      "feature": "Time Point 126",
+      "weight": 0.0002861881873111817
+    },
+    {
+      "feature": "Time Point 127",
+      "weight": 0.00048050389925263293
+    },
+    {
+      "feature": "Time Point 128",
+      "weight": 0.000872962976478651
+    },
+    {
+      "feature": "Time Point 129",
+      "weight": 0.0013243790146170206
+    },
+    {
+      "feature": "Time Point 130",
+      "weight": -0.0006075580920316848
+    },
+    {
+      "feature": "Time Point 131",
+      "weight": 0.0005790041036560724
+    },
+    {
+      "feature": "Time Point 132",
+      "weight": -0.000516982175419697
+    },
+    {
+      "feature": "Time Point 133",
+      "weight": -7.66599071120584e-05
+    },
+    {
+      "feature": "Time Point 134",
+      "weight": -0.0015257611312348809
+    },
+    {
+      "feature": "Time Point 135",
+      "weight": -6.474174149600869e-05
+    },
+    {
+      "feature": "Time Point 136",
+      "weight": -7.281016695505364e-05
+    },
+    {
+      "feature": "Time Point 137",
+      "weight": 9.32455232182718e-05
+    },
+    {
+      "feature": "Time Point 138",
+      "weight": -0.0007047275213222408
+    },
+    {
+      "feature": "Time Point 139",
+      "weight": -6.705483964359896e-05
+    },
+    {
+      "feature": "Time Point 140",
+      "weight": 0.0012470814595191425
+    },
+    {
+      "feature": "Time Point 141",
+      "weight": -0.002085514066957763
+    },
+    {
+      "feature": "Time Point 142",
+      "weight": 0.0011463666152914185
+    },
+    {
+      "feature": "Time Point 143",
+      "weight": -0.0002368600475273579
+    },
+    {
+      "feature": "Time Point 144",
+      "weight": 0.0001908991236196643
+    },
+    {
+      "feature": "Time Point 145",
+      "weight": -0.0007238241829482575
+    },
+    {
+      "feature": "Time Point 146",
+      "weight": 0.0014791640468990925
+    },
+    {
+      "feature": "Time Point 147",
+      "weight": -0.0007164638848175164
+    },
+    {
+      "feature": "Time Point 148",
+      "weight": 0.00034656253766207786
+    },
+    {
+      "feature": "Time Point 149",
+      "weight": -0.0004882560828145997
+    },
+    {
+      "feature": "Time Point 150",
+      "weight": -0.0008389662753942968
+    },
+    {
+      "feature": "Time Point 151",
+      "weight": 0.0009141769974082321
+    },
+    {
+      "feature": "Time Point 152",
+      "weight": -0.000623309551075353
+    },
+    {
+      "feature": "Time Point 153",
+      "weight": -0.0016430996183310514
+    },
+    {
+      "feature": "Time Point 154",
+      "weight": -0.00028674722167813685
+    },
+    {
+      "feature": "Time Point 155",
+      "weight": -0.0011344692381109508
+    },
+    {
+      "feature": "Time Point 156",
+      "weight": 0.0006748465745579874
+    },
+    {
+      "feature": "Time Point 157",
+      "weight": -0.0023653358889003367
+    },
+    {
+      "feature": "Time Point 158",
+      "weight": -6.869246780500495e-05
+    },
+    {
+      "feature": "Time Point 159",
+      "weight": 0.0008629571843648818
+    },
+    {
+      "feature": "Time Point 160",
+      "weight": 0.0006875829388405366
+    },
+    {
+      "feature": "Time Point 161",
+      "weight": -0.0010159401039272716
+    },
+    {
+      "feature": "Time Point 162",
+      "weight": 9.886971528993983e-05
+    },
+    {
+      "feature": "Time Point 163",
+      "weight": 0.00011875330815486951
+    },
+    {
+      "feature": "Time Point 164",
+      "weight": -0.0014662767576626387
+    },
+    {
+      "feature": "Time Point 165",
+      "weight": -0.0030642846072453187
+    },
+    {
+      "feature": "Time Point 166",
+      "weight": -0.0015451207655505464
+    },
+    {
+      "feature": "Time Point 167",
+      "weight": 0.00042142921087509204
+    },
+    {
+      "feature": "Time Point 168",
+      "weight": 2.5919324018421855e-05
+    },
+    {
+      "feature": "Time Point 169",
+      "weight": 0.0014205098555320809
+    },
+    {
+      "feature": "Time Point 170",
+      "weight": -0.0028785499886882565
+    },
+    {
+      "feature": "Time Point 171",
+      "weight": -0.000776301151707701
+    },
+    {
+      "feature": "Time Point 172",
+      "weight": 9.217802117170947e-05
+    },
+    {
+      "feature": "Time Point 173",
+      "weight": -0.0005843372168912026
+    },
+    {
+      "feature": "Time Point 174",
+      "weight": -0.001300500535915922
+    },
+    {
+      "feature": "Time Point 175",
+      "weight": 0.0005222297491779883
+    },
+    {
+      "feature": "Time Point 176",
+      "weight": -0.002017389279522735
+    },
+    {
+      "feature": "Time Point 177",
+      "weight": -0.002159760902515444
+    },
+    {
+      "feature": "Time Point 178",
+      "weight": 0.001257568404688445
+    },
+    {
+      "feature": "Time Point 179",
+      "weight": -0.0032288491194269165
+    },
+    {
+      "feature": "Time Point 180",
+      "weight": -0.0029613181149454643
+    },
+    {
+      "feature": "Time Point 181",
+      "weight": -0.0017275172187698185
+    },
+    {
+      "feature": "Time Point 182",
+      "weight": 0.0023378296465408994
+    },
+    {
+      "feature": "Time Point 183",
+      "weight": -0.00287089625991895
+    },
+    {
+      "feature": "Time Point 184",
+      "weight": -0.0011195288478014068
+    },
+    {
+      "feature": "Time Point 185",
+      "weight": 0.0012592754714349937
+    },
+    {
+      "feature": "Time Point 186",
+      "weight": -0.003093713825711006
+    }
+  ]
+}

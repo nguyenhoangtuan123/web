@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@import "tw-animate-css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+
+@theme {
+	--font-playwrite: "Playwrite DK Loopet", cursive;
+	--font-roboto: "Roboto", sans-serif; 
+}
