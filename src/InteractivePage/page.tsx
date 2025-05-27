@@ -92,6 +92,14 @@ const fetchingResult = async (
             isLoadingResult(false);
             return response.json();
         })
+        // .then((data) => {
+        //     if (data.error) {
+        //         alert('Lỗi từ server: ' + data.error);
+        //         return;
+        //     }
+        //     console.log('Classification result:', data);
+        //     setClassificationResult(data);
+        // })
         .then((data) => {
             if (data.error) {
                 alert('Lỗi từ server: ' + data.error);
@@ -99,7 +107,14 @@ const fetchingResult = async (
             }
             console.log('Classification result:', data);
             setClassificationResult(data);
+
+            // Gửi kết quả lên server
+            const prediction = data?.results?.[0]?.prediction;
+            if (prediction) {
+                saveResultToDB(prediction);
+            }
         })
+
         .catch((error) => {
             console.error('Classification error:', error.message);
             alert('Error classifying signal: ' + error.message);
@@ -159,6 +174,23 @@ const InteractivePage = () => {
         } else {
             setSelectedSample(samples[parseInt(value)]);
             setDataPoints(samples[parseInt(value)].signal.map((x: number, idx: number) => ({ x: idx / samples[parseInt(value)].signal.length, y: x })));
+        }
+    };
+    // luu kết quả phân loại vào cơ sở dữ liệu
+    const saveResultToDB = async (result: string) => {
+        try {
+            const res = await fetch("http://localhost:5000/save-result", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ result })  // gửi chuỗi kết quả như "Normal", "AFib", v.v.
+            });
+
+            const data = await res.json();
+            console.log("Saved result:", data);
+        } catch (err) {
+            console.error("Failed to save result", err);
         }
     };
 

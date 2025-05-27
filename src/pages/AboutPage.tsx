@@ -28,7 +28,7 @@ const AboutPage = () => {
               </h1>
 
               <p className="text-lg sm:text-xl leading-relaxed text-yellow-200/90">
-                <span className="font-semibold text-yellow-400">Me</span>.Chúng tôi là Nhóm 11, gồm các thành viên đang theo học học phần  Machine Learning tại UIT.
+                <span className="font-semibold text-yellow-400"></span>.Chúng tôi là Nhóm 11, gồm các thành viên đang theo học học phần  Machine Learning tại UIT.
                 Trong khuôn khổ báo cáo cuối kỳ, nhóm đã cùng nhau nghiên cứu, phát triển và hoàn thiện đề tài: "Phân Loại Nhịp Tim Sử Dụng Các Thuật Toán Máy học 
                 và So Sánh Giữa Thư Viện Tối Ưu và Cài Đặt Thủ Công."
               </p>
