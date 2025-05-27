@@ -64,6 +64,25 @@ const Footer = () => {
           >
             23521684@gm.uit.edu.vn
           </a>
+          <a
+            href="mailto:23521719@gm.uit.edu.vn"
+            className="text-amber-200 text-sm hover:text-yellow-400 transition-colors hidden md:block"
+          >
+            23521719@gm.uit.edu.vn
+          </a>
+          <a
+            href="mailto:23521689@gm.uit.edu.vn"
+            className="text-amber-200 text-sm hover:text-yellow-400 transition-colors hidden md:block"
+          >
+            23521689@gm.uit.edu.vn
+          </a>
+          <a
+            href="mailto:23521714@gm.uit.edu.vn"
+            className="text-amber-200 text-sm hover:text-yellow-400 transition-colors hidden md:block"
+          >
+            23521714@gm.uit.edu.vn
+          </a>
+          
         </motion.div>
 
         {/* Copyright & Tech */}
