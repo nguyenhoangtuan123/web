@@ -1,4 +1,3 @@
-import { FaGithub, FaFacebook, FaXingSquare } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const Footer = () => {
@@ -40,24 +39,7 @@ const Footer = () => {
 
         {/* Social Media & Contact */}
         <motion.div variants={itemVariants} className="flex items-center space-x-4">
-          <div className="flex space-x-3">
-            {[
-              { Icon: FaXingSquare, href: 'https://x.com/me_siuuuu', label: 'Twitter' },
-              { Icon: FaGithub, href: 'https://github.com/trungdangtapcode', label: 'GitHub' },
-              { Icon: FaFacebook, href: 'https://www.facebook.com/ToRungLa', label: 'Facebook' },
-            ].map(({ Icon, href, label }) => (
-              <a
-                key={label}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-amber-200 hover:text-yellow-400 transition-colors duration-200 transform hover:scale-110"
-                aria-label={label}
-              >
-                <Icon size={20} />
-              </a>
-            ))}
-          </div>
+
           <a
             href="mailto:23521684@gm.uit.edu.vn"
             className="text-amber-200 text-sm hover:text-yellow-400 transition-colors hidden md:block"
