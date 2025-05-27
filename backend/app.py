@@ -211,13 +211,13 @@ import joblib
 import pandas as pd
 from flask_cors import CORS
 import os
-from pymongo import MongoClient
-import datetime
+# from pymongo import MongoClient
+# import datetime
 
-# Kết nối tới MongoDB local (mặc định port 27017)
-client = MongoClient("mongodb://localhost:27017/")
-db = client["ecg_database"]           # Tên database
-results_collection = db["results"]    # Tên collection
+# # Kết nối tới MongoDB local (mặc định port 27017)
+# client = MongoClient("mongodb://localhost:27017/")
+# db = client["ecg_database"]           # Tên database
+# results_collection = db["results"]    # Tên collection
 
 app = Flask(__name__)
 
@@ -423,21 +423,21 @@ def get_samples():
         return jsonify({"error": "No valid sample data available"}), 404
     return jsonify({"samples": samples})
 
-@app.route("/save-result", methods=["POST"])
-def save_result():
-    data = request.get_json()
-    result = data.get("result")
+# @app.route("/save-result", methods=["POST"])
+# def save_result():
+#     data = request.get_json()
+#     result = data.get("result")
 
-    if result is None:
-        return jsonify({"error": "Missing result field"}), 400
+#     if result is None:
+#         return jsonify({"error": "Missing result field"}), 400
 
-    # Ghi vào MongoDB
-    results_collection.insert_one({
-        "result": result,
-        "timestamp": datetime.datetime.now()
-    })
+#     # Ghi vào MongoDB
+#     results_collection.insert_one({
+#         "result": result,
+#         "timestamp": datetime.datetime.now()
+#     })
 
-    return jsonify({"message": "Result saved successfully"})
+#     return jsonify({"message": "Result saved successfully"})
 # Endpoint to classify signal with all models
 @app.route('/classify', methods=['POST'])
 def classify():
